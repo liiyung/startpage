@@ -1,0 +1,10 @@
+
+:root {
+  --text: #66666f;
+}
+
+
+div[class="write-here"] {width:40vw; left:0; right:0; margin:auto; color:var(--text); border:none; }
+
+
+

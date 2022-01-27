@@ -1,10 +1,30 @@
 
+
+
 :root {
+
+  --teal     : #559988;
+  --autopink : #f9c0c8;
+
+  --greybe : #bebebf;
+  --grey29 : #292929; 
+  --grey24 : #242424;
+
+  --background-primary: var(--grey29);
   --text: #66666f;
 }
 
+::selection {background: var(--grey24); color: var(--autopink); border-radius: 5px;}
 
-div[class="write-here"] {font-family: CozetteVector ; width:40vw; left:0; right:0; margin:auto; color:var(--text); border:none; }
+body {background: var(--background-primary);}
+a, a:active, a:focus {outline: none !important;}
+
+div[id="write-here"] {
+  outline: none !important;
+  color:var(--text);  font-family: CozetteVector; font-weight: 200; font-size: 13px; 
+  width:40vw; height: 100vh;
+  left:0; right:0; margin:auto; padding-top: 5vh;
+}
 
 
 

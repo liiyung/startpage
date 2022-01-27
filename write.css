@@ -4,7 +4,7 @@
 }
 
 
-div[class="write-here"] {width:40vw; left:0; right:0; margin:auto; color:var(--text); border:none; }
+div[class="write-here"] {font-family: CozetteVector ; width:40vw; left:0; right:0; margin:auto; color:var(--text); border:none; }
 
 
 
